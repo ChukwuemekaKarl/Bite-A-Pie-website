@@ -68,7 +68,7 @@
         
         /* Header & Navigation */
         header {
-            background-color: rgb(255, 249, 202);
+            background-color: rgb(255, 253, 238);
             box-shadow: 0 2px 15px var(--shadow-light);
             position: fixed;
             width: 100%;
