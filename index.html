@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bite-A-Pie</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container header-container">
+            <a href="./index.html" class="logo"><img src="./img/Bite-a-Pie web-logo.png" width="100"  alt=""></a>
+            
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./product.html">Products</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section with Slider -->
+    <section class="hero" id="home">
+        <div class="slider">
+            <!-- Slide 1 -->
+            <div class="slide active" style="background-image: url('./img/hero/bread-slide-01.webp');">
+                <div class="slide-content">
+                    <h1>Freshly Baked Bread Every Morning</h1>
+                    <p>Experience the warmth of our oven-fresh bread made with the finest ingredients and traditional techniques.</p>
+                    <a href="./product.html" class="btn">Explore Our Products</a>
+                </div>
+            </div>
+            
+            <!-- Slide 2 -->
+            <div class="slide" style="background-image: url('./img/hero/pasteries-slide-01.webp');">
+                <div class="slide-content">
+                    <h1>Delicious Pastries & Desserts</h1>
+                    <p>Indulge in our selection of handcrafted pastries, cakes, and desserts that will satisfy your sweet cravings.</p>
+                    <a href="./product.html" class="btn">View Our Selection</a>
+                </div>
+            </div>
+            
+            <!-- Slide 3 -->
+            <div class="slide" style="background-image: url('./img/hero/cake-slide-01.webp');">
+                <div class="slide-content">
+                    <h1>Custom Cakes for Every Occasion</h1>
+                    <p>Celebrate life's special moments with our beautifully designed custom cakes made just for you.</p>
+                    <a href="./product.html" class="btn">Order a Custom Cake</a>
+                </div>
+            </div>
+            
+            <!-- Slider Controls -->
+            <div class="slider-controls">
+                <div class="slider-dot active" data-slide="0"></div>
+                <div class="slider-dot" data-slide="1"></div>
+                <div class="slider-dot" data-slide="2"></div>
+            </div>
+        </div>
+    </section>
+<!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <a href="#" class="footer-logo"><img src="./img/Bite-a-Pie web-logo02.png" width="150"  alt=""></a>
+                    <p>Bringing the warmth and tradition of artisan baking to our community since 2020.</p>
+                    
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./about.html">About Us</a></li>
+                        <li><a href="./product.html">Our Products</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Our Products</h3>
+                    <ul>
+                        <li><a href="./product.html">Fresh Bread</a></li>
+                        <li><a href="./product.html">Pastries & Desserts</a></li>
+                        <li><a href="./product.html">Custom Cakes</a></li>
+                        <li><a href="./product.html">Seasonal Specials</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Contact Info</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Maryland, Enugu, Nigeria</li>
+                        <li><i class="fas fa-phone"></i> (+234) 810-671-8634</li>
+                        <li><i class="fas fa-envelope"></i> info@bite-a-pie.com</li>
+                        <li><i class="fas fa-clock"></i> Mon-Sat: 6am-8pm</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2023 Bite-A-Pie. All rights reserved. | Designed with <i class="fas fa-heart" style="color: #ffae00;"></i> for bakery lovers</p>
+            </div>
+        </div>
+    </footer> 
+<script src="./script.js"></script>
+</body>
+</html>
